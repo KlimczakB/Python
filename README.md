@@ -2,9 +2,13 @@
 ## EXERCISE 4.1
 
 Let p=(x,y) be a point in a plane. Define the following functions using lambda:
+
 (a) a test if p is in unit circle,
+
 (b) a test if the coordinates of p are positive,
+
 (c) a sorting key (y decreasing, x increasing),
+
 (d) a sorting key (the sum |x|+|y|).
 
 Using sorting keys: `point_list.sort(key=lambda p: ...)`
