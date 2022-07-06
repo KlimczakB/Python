@@ -1,6 +1,6 @@
 # Python
 
-EXERCISE 6.1
+## EXERCISE 6.1
 
 Create 3D vectors as a Python class.
 ```
@@ -33,7 +33,7 @@ class Vector:
         return hash((self.x, self.y, self.z))   # recommended
 ```
 
-# Exemplary tests
+## Exemplary tests
 ```
 import math
 v = Vector(1, 2, 3)
