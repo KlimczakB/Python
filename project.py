@@ -85,10 +85,10 @@ def game():
             ai_score+=1
         else:
             print("Tie")
-        text_area = Text(frame, height=12, width=22, bg="#66CDAA")
-        text_area.grid(column=0, row=3, columnspan=3)
+        text = Text(frame, height=12, width=22, bg="#66CDAA")
+        text.grid(column=0, row=3, columnspan=3)
         result = "Your Choice: {} \nAI's Choice: {} \nYour Score: {} \nAI Score: {} \n".format(player_pick,ai_pick,player_score, ai_score)     
-        text_area.insert(END,result)
+        text.insert(END,result)
         f.write(str(result))
 
     def paper():
@@ -106,10 +106,10 @@ def game():
             ai_score+=1
         else:
             print("Tie")
-        text_area = Text(frame, height=12, width=22, bg="#66CDAA")
-        text_area.grid(column=0, row=3, columnspan=3)
+        text = Text(frame, height=12, width=22, bg="#66CDAA")
+        text.grid(column=0, row=3, columnspan=3)
         result = "Your Choice: {} \nAI's Choice: {} \nYour Score: {} \nAI Score: {} \n".format(player_pick,ai_pick,player_score, ai_score)    
-        text_area.insert(END,result)
+        text.insert(END,result)
         f.write(str(result))
 
     def scissor():
@@ -127,10 +127,10 @@ def game():
             ai_score+=1
         else:
             print("Tie")
-        text_area = Text(master=frame, height=12, width=22, bg="#66CDAA")
-        text_area.grid(column=0, row=3, columnspan=3)
+        text = Text(master=frame, height=12, width=22, bg="#66CDAA")
+        text.grid(column=0, row=3, columnspan=3)
         result = "Your Choice: {} \nAI's Choice: {} \nYour Score: {} \nAI Score: {} \n".format(player_pick,ai_pick,player_score, ai_score)    
-        text_area.insert(END,result)
+        text.insert(END,result)
         f.write(str(result))
 
 
