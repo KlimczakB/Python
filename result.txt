@@ -1,0 +1,12 @@
+Your Choice: rock 
+AI's Choice: paper 
+Your Score: 0 
+AI Score: 1 
+Your Choice: paper 
+AI's Choice: rock 
+Your Score: 1 
+AI Score: 1 
+Your Choice: scissor 
+AI's Choice: scissor 
+Your Score: 1 
+AI Score: 1 
