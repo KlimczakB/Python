@@ -18,4 +18,5 @@ In the project I used widgets such as:
 - Button
 - Text
 - Frame 
+
 Also geometry managers (.pack, .grid) and multiple windows(Toplevel).
