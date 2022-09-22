@@ -20,3 +20,4 @@ In the project I used widgets such as:
 - Frame 
 
 Also geometry managers (.pack, .grid) and multiple windows(Toplevel).
+The buttons for selecting one of the 3 options by the player have pictures instead of text. The pictures are saved in the "images" folder.
