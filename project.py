@@ -32,7 +32,8 @@ ai_score = 0
 player_pick = ''
 ai_pick = ''
 
-# import images 
+# import images
+# images source: https://www.coltnews.com/wp-content/uploads/2016/04/RPS.png
 images_list = [
     PhotoImage(file='images/r.png'),
     PhotoImage(file='images/p.png'),
