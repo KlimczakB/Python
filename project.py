@@ -48,7 +48,7 @@ def save_file(x):
 
 # main part of code, top level
 def game():
-    save_file("------New Game------\n") #add Label of New Game to the result file every time you press "New Game button"
+    save_file("------New Game------\n") #add label of New Game to the result file every time you press "New Game button"
     
     game = Toplevel(root) # open in new window
     game.geometry("350x400") 
